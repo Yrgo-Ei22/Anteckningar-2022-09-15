@@ -11,7 +11,16 @@
 *              Returtypen indikerar datatypen på det värde som returneras
 *              när funktionen avslutas, exempelvis int för heltal eller
 *              double för flyttal. Ifall inget returvärde skall returneras
-*              skall returtypen void användas.
+*              skall returtypen void användas. För att returnera data används
+*              nyckelordet return följt av värdet som skall returneras. 
+* 
+*              Som exempel, för att returnera flyttalet 3.4 från en funktion
+*              med returtypen double kan följande instruktion skrivas:
+*              return 3.4;
+*
+*              För voidfunktioner, där inget värde returneras, är nyckelordet 
+*              return valbart, men kan användas för att tydliggöra var 
+*              funktionen avslutas.
 * 
 *              I parentesen efter funktionsnamnet skrivs funktionsparametrar.
 *              Funktionsparametrarna anges datatyp på eventuell data som
