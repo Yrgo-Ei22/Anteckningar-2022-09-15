@@ -76,7 +76,7 @@
 *              En inline-funktion deklareras enligt nedan:
 *              static inline returtyp namn(funktionsparametrar);
 ********************************************************************************/
-#include "header.h"
+#include <stdio.h>
 
 /********************************************************************************
 * get_sum: Returnerar summan av tre angivna flyttal.
